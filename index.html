@@ -6,6 +6,7 @@
     <title>Do Your Zone 2</title>
 </head>
 <body>
+    <script src="hr_calculation.js"></script>
     <h1>Do Your Zone 2!</h1>
     <!--Description: This app is a new idea that ive had to create a web app that allows you to create an account, log activities that you do and build towards a zone 2 mileage goal.<br>
         Zone 2 notoriously is a hard thing to get right. ive always had trouble keeping in zone and im always looking for ways to make it easier on myself. <br>
@@ -19,6 +20,7 @@
     <div>min hr<input type="number" id="hr_min" max="200" min="1"></div>
     <div>max hr<input type="number" id="hr_max" max="200" min="1"></div>
     <div>What was the average heart rate of your training session?<input type="number" id="hrworkout"></div>
+    <button onclick="hrcalc()">Calculate</button>
     <div>Zone 2 Progress bar!<progress id="zone2progress" max="10000"></progress>
     </body>
 </html>
