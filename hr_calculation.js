@@ -3,8 +3,8 @@ function hrcalc() {
     var minhr = document.getElementById("minhr").value
     var maxhr = document.getElementById("maxhr").value
     var hrworkout = document.getElementById("hrworkout").value
-    if (hrworkout <= maxhr) and (hrworkout >=minhr); {
-        gains.value = gains + 10
+    if (hrworkout.value <= maxhr.value) and (hrworkout.vale >=minhr.value); {
+        gains.value = gains.value + 10
     }
 
 }
